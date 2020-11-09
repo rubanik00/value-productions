@@ -10254,15 +10254,6 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   transform: translateY(0);
 }
 
-/* .view-all-custom {
-  position: fixed;
-  bottom: -130px;
-  right: 175px;
-  z-index: 121;
-  cursor: pointer;
-  height: 40px;
-  line-height: 30px;
-} */
 .view-all {
   position: fixed;
   bottom: 30px;
@@ -10270,6 +10261,12 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   cursor: pointer;
   height: 40px;
   line-height: 30px;
+}
+
+@media (max-width: 1300px) {
+  .book-custom {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -10285,7 +10282,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .view-all .icon-circle {
   position: absolute;
   top: -8px;
-  /* left: 22px; */
+  left: 22px;
   right: 10px;
   width: 150px;
   height: 40px;
@@ -10982,10 +10979,10 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.79)));
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.79)));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 100%);
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 100%); */
   transition: transform 0.6s, background 0.6s cubic-bezier(0.9, 0.03, 0.22, 0.97), -webkit-transform 0.6s;
   z-index: 1;
 }
@@ -12055,7 +12052,7 @@ label {
 .map-custom {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 200px;
   pointer-events: none;
 }
 
@@ -12490,6 +12487,7 @@ footer .copyright-social ul li:last-child {
 .footer .footer-links .footer-block.col-contact p span {
   margin-right: 5px;
   margin-left: 5px;
+
 }
 
 .footer .footer-links .footer-block .footer-logo {
@@ -12671,6 +12669,6 @@ footer .copyright-social ul li:last-child {
 }
 .gorizontal-image-img {
   width: 80px;
-  margin-right: 20px;
+  margin-right: 60px;
 }
 /*# sourceMappingURL=style.css.map */

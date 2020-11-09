@@ -40,7 +40,6 @@
         <div class="preloader-progress"></div>
     </div>
 </div>
-<!-- Nav Bar -->
 <div class="dsn-nav-bar">
   <div class="site-header">
       <div class="extend-container">
@@ -55,41 +54,19 @@
           <nav class=" accent-menu main-navigation">
               <ul class="extend-container">
                   <li class="custom-drop-down">
-                      <a href="#">Home</a>
-                      <ul>
-                          <li><a href="index.html">Main Demo</a></li>
-                          <li><a href="one-page-3.html">One Page Three</a></li>
-                          <li><a href="one-page-4.html">One Page Four</a></li>
-                      </ul>
+                      <a href="index.html">Home</a>
                   </li>
-                  <!-- <li class="custom-drop-down">
-                      <a href="#">Slider</a>
-                      <ul>
-                          <li><a href="slider.html">Slider</a></li>
-                          <li><a href="slider2.html">Slider two</a></li>
-                          <li><a href="slider3.html">Slider Three</a></li>
-                      </ul>
-                  </li> -->
                   <li><a href="about.html">About</a></li>
-                  <li class="custom-drop-down">
-                      <a href="#">Work</a>
-                      <ul>
+                  <!-- <li class="custom-drop-down"> -->
+                      <!-- <a href="#">Work</a> -->
+                      <!-- <ul> -->
                           <li><a href="work.html">Work</a></li>
-                          <li><a href="project-9.html">Header One</a></li>
+                          <!-- <li><a href="project-9.html">Header One</a></li>
                           <li><a href="project-7.html">Header Two</a></li>
-                          <li><a href="project-5.html">Header Three</a></li>
-                      </ul>
-                  </li>
-                  <!-- <li class="custom-drop-down">
-                      <a href="#">Blog</a>
-                      <ul>
-                          <li><a href="blog.html">Blog</a></li>
-                          <li><a href="post.html">Single Post</a></li>
-                      </ul>
-                  </li> -->
+                          <li><a href="project-5.html">Header Three</a></li> -->
+                      <!-- </ul> -->
+                  <!-- </li> -->
                   <li><a href="contact.html">Contact</a></li>
-                  <!-- <li><a href="terms.html">Terms of use</a></li> -->
-                  <!-- <li><a href="privacy.html">Privacy policy</a></li> -->
               </ul>
           </nav>
       </div>
@@ -104,7 +81,7 @@
           </div>
 
           <div class="book-a-call-btn">
-              <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="view-all image-zoom" data-dsn="parallax" style="position: absolute; top: 30px;  left:75%; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+              <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="book-custom view-all image-zoom" data-dsn="parallax" style="position: absolute; top: 30px;  left:75%; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
                   <div class="view-all-container">
                       <div class="icon ">
                           <div class="line-1"></div>
@@ -138,9 +115,9 @@
               </div>
           </div>
           <div class="nav-content">
-                  <address class="v-middle" style="margin-top: 50px">
+                  <address class="v-middle" style="margin-top: 50px; transition-delay: 1.5s;">
                       <div class="inner-content">
-                              <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="view-all image-zoom" data-dsn="parallax" style="bottom: 200px; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0); right: 450px;">
+                              <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="view-all image-zoom" data-dsn="parallax" style="bottom: 200px; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0); ">
                                   <div class="view-all-container" style="margin-left: 0px;">
                                       <div class="icon ">
                                           <div class="line-1"></div>
@@ -149,12 +126,15 @@
                                       <div class="text">Book a call</a></div>
                                   </div>
                               </div>
-                      <span>Ukraine</span>
+
+                              <div id="v-middle" style="margin-left: -30px;"><strong>Tel</strong>: +001 225 3351 <br></span></div>
+                              <div id="v-middle" style="margin-left: -30px;"><strong>Email</strong>: <a class="link-hover" data-hover-text="info@dsngrid.com" href="#">info@dsngrid.com</a></div>
+                      <!-- <span>Ukraine</span>
                       <span>Kiev , Mikoli Pimonenka, 13, 6a / 21</span>
-                      <span>+38(097)756-81-91</span>
+                      <span>+38(097)756-81-91</span> -->
                       <div class="v-middle-custom">
-                          <span id="v-middle-custom-span" style="margin-left: 0px;"><a href="terms.html">Terms of use</a></span>
-                          <span id="v-middle-custom-span"><a href="privacy.html">Privacy policy</a></span>
+                          <span id="v-middle-custom-span" style="margin-left: -30px;"><a href="terms.html">Terms of use</a></span>
+                          <span id="v-middle-custom-span" style="margin-left: 10px;"><a href="privacy.html">Privacy policy</a></span>
                       </div>
                   </address>
               </div>
@@ -183,8 +163,7 @@
       <div class="wrapper">
         <div class="root-contact">
           <div class="container-fluid">
-            <div class="map-custom" id="map" data-dsn-lat="30.0489206" data-dsn-len="31.258553" data-dsn-zoom="14">
-            </div>
+              <iframe class="map-custom" id="map" data-dsn-lat="30.0489206" data-dsn-len="31.258553" data-dsn-zoom="14" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0312482427767!2d30.48812241549748!3d50.45914279461984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce64cc70dd3f%3A0xf52cb48444deb57a!2z0YPQuy4g0J3QuNC60L7Qu9Cw0Y8g0J_QuNC80L7QvdC10L3QutC-LCAxMywg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1604939432703!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
 
           <div class="container section-margin">
@@ -192,8 +171,20 @@
               <div class="col-lg-6">
                 <div class="box-info-contact">
                   <h3>Start a new project?</h3>
-                  <h5>Visit our studio at</h5>
-                  <p>Today you have a lot of competitors, use an engaging video to show off your key advantages and why you are the leading on the market.</p>
+                  <div>
+                    <div class="book-a-call-btn">
+                      <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="view-all image-zoom" data-dsn="parallax" style="position: relative; top:0px; left:10%; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+                          <div class="view-all-container">
+                              <div class="icon ">
+                                  <div class="line-1"></div>
+                                  <div class="line-2"></div>
+                              </div>
+                              <div class="text">Book a call</a></div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                  <p style="margin-top: 10px;">Today you have a lot of competitors, use an engaging video to show off your key advantages and why you are the leading on the market.</p>
 
                   <ul>
                     <li>
@@ -252,7 +243,7 @@
                       </div>
 
                       <div class="image-zoom" data-dsn="parallax">
-                        <button>Send Message</button>
+                        <button style="border-radius: 50px; color: white; border: 1px solid white;">Send Message</button>
                       </div>
                     </div>
                   </form>
@@ -265,22 +256,7 @@
             </div>
           </div>
         </div>
-
-        <section class="contact-up section-margin section-padding">
-          <div class="container">
-            <div class="c-wapp">
-              <a href="work.html" class="effect-ajax">
-                <span class="hiring">
-                  portfolio
-                </span>
-                <span class="career">
-                  See More Works
-                </span>
-              </a>
-            </div>
-          </div>
-        </section>
-
+        
         <section class="contact-up section-margin section-padding">
           <div class="container">
               <div class="c-wapp">
@@ -302,7 +278,7 @@
                 <div class="row">
                     <div class="col-md-3 dsn-col-footer">
                         <div class="footer-block">
-                            <div class="footer-logo">
+                            <div class="footer-logo" style="position: relative; top: -20px;">
                                 <a href="#"><img src="assets/img/truephoto/Logo-1500.png" alt=""></a>
                             </div>
 
@@ -313,7 +289,6 @@
                                     <li><a href="https://twitter.com/ValueProductio1"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCmu0qAPN26_uK_4jWJOOPxg"><i class="fab fa-youtube-square"></i></a></li>
                                     <li><a href="https://vimeo.com/valueproductions1"><i class="fab fa-vimeo-v"></i></a></li>
-                                    <li><a href="https://medium.com/@value2productions"><i class="fab fa-medium"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/peter-garazha/"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
 
@@ -326,11 +301,10 @@
                             <h4 class="footer-title">Navigation</h4>
                             <nav>
                                 <ul>
-                                    <li><a href="#">Portfolio</a>
+                                    <li><a href="work.html">Portfolio</a>
                                     </li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Contact</a>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -340,6 +314,7 @@
                     <div class="col-md-3 dsn-col-footer">
                         <div class="footer-block col-contact">
                             <h4 class="footer-title">Contact</h4>
+                            
                             <p>+38(097)756-81-91</p>
                             <p class="over-hidden"><a class="link-hover"
                                     data-hover-text="info@dsngrid.com" href="#">peter@value.productions</a>
@@ -359,7 +334,7 @@
 
             <div class="copyright">
                 <div class="text-center">
-                    <p>© 2020 Valuer Productions</p>
+                    <p>© 2020 Value Productions</p>
                 </div>
             </div>
         </div>
