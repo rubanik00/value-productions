@@ -23,6 +23,20 @@
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
 
+    <!-- <style>
+      .icon-circle {
+        position: absolute;
+        top: -8px;
+        left: 22px;
+        right: 10px;
+        width: 230px; 
+        height: 55px; 
+        border: 1px solid white; 
+        border-radius: 50px;
+        opacity: 0;
+      }
+    </style> -->
+
 </head>
 
 <body class=" hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="false">
@@ -40,6 +54,7 @@
         <div class="preloader-progress"></div>
     </div>
 </div>
+<!-- Nav Bar -->
 <div class="dsn-nav-bar">
   <div class="site-header">
       <div class="extend-container">
@@ -53,19 +68,9 @@
           </div>
           <nav class=" accent-menu main-navigation">
               <ul class="extend-container">
-                  <li class="custom-drop-down">
-                      <a href="index.html">Home</a>
-                  </li>
+                  <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <!-- <li class="custom-drop-down"> -->
-                      <!-- <a href="#">Work</a> -->
-                      <!-- <ul> -->
-                          <li><a href="work.html">Work</a></li>
-                          <!-- <li><a href="project-9.html">Header One</a></li>
-                          <li><a href="project-7.html">Header Two</a></li>
-                          <li><a href="project-5.html">Header Three</a></li> -->
-                      <!-- </ul> -->
-                  <!-- </li> -->
+                  <li><a href="work.html">Work</a></li>
                   <li><a href="contact.html">Contact</a></li>
               </ul>
           </nav>
@@ -81,7 +86,7 @@
           </div>
 
           <div class="book-a-call-btn">
-              <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="book-custom view-all image-zoom" data-dsn="parallax" style="position: absolute; top: 30px;  left:75%; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+              <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="book-custom view-all image-zoom" data-dsn="parallax" style="position: absolute; top: 27.5px;  left:75%; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
                   <div class="view-all-container">
                       <div class="icon ">
                           <div class="line-1"></div>
@@ -115,27 +120,22 @@
               </div>
           </div>
           <div class="nav-content">
-                  <address class="v-middle" style="margin-top: 50px; transition-delay: 1.5s;">
-                      <div class="inner-content">
-                              <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="view-all image-zoom" data-dsn="parallax" style="bottom: 200px; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0); ">
-                                  <div class="view-all-container" style="margin-left: 0px;">
-                                      <div class="icon ">
-                                          <div class="line-1"></div>
-                                          <div class="line-2"></div>
-                                      </div>
-                                      <div class="text">Book a call</a></div>
-                                  </div>
+              <div class="inner-content">
+                  <address class="v-middle" style="margin-top: 70px;">
+                      <span id="v-middle" onClick="window.location='https://calendly.com/valueproductions/30min'" class="view-all image-zoom" data-dsn="parallax" style="bottom: 200px; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+                          <div class="view-all-container" style="margin-left: 50px;">
+                              <div class="icon ">
+                                  <div class="line-1"></div>
+                                  <div class="line-2"></div>
                               </div>
+                              <div class="text">Book a call</a></div>
+                          </div>
+                      </span>
 
-                              <div id="v-middle" style="margin-left: -30px;"><strong>Tel</strong>: +001 225 3351 <br></span></div>
-                              <div id="v-middle" style="margin-left: -30px;"><strong>Email</strong>: <a class="link-hover" data-hover-text="info@dsngrid.com" href="#">info@dsngrid.com</a></div>
-                      <!-- <span>Ukraine</span>
-                      <span>Kiev , Mikoli Pimonenka, 13, 6a / 21</span>
-                      <span>+38(097)756-81-91</span> -->
-                      <div class="v-middle-custom">
-                          <span id="v-middle-custom-span" style="margin-left: -30px;"><a href="terms.html">Terms of use</a></span>
-                          <span id="v-middle-custom-span" style="margin-left: 10px;"><a href="privacy.html">Privacy policy</a></span>
-                      </div>
+                      <span id="v-middle" style="margin-left: 10px; margin-bottom: 15px;"><strong>Tel</strong>: +38(097)756-81-91 <br></span>
+                      <span id="v-middle" style="margin-left: 10px; margin-bottom: 15px;"><strong>Email</strong>: <a class="link-hover" data-hover-text="info@dsngrid.com" href="mailto:peter@value.productions">peter@value.productions</a></span>
+                      <span id="v-middle-custom-span" style="margin-left: 10px; font-size: 20px; font-weight: bold"><a href="terms.html">Terms of use</a></span>
+                      <span id="v-middle-custom-span" style="margin-left: 10px; font-size: 20px; font-weight: bold"><a href="privacy.html">Privacy policy</a></span>
                   </address>
               </div>
 
@@ -163,7 +163,7 @@
       <div class="wrapper">
         <div class="root-contact">
           <div class="container-fluid">
-              <iframe class="map-custom" id="map" data-dsn-lat="30.0489206" data-dsn-len="31.258553" data-dsn-zoom="14" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0312482427767!2d30.48812241549748!3d50.45914279461984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce64cc70dd3f%3A0xf52cb48444deb57a!2z0YPQuy4g0J3QuNC60L7Qu9Cw0Y8g0J_QuNC80L7QvdC10L3QutC-LCAxMywg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1604939432703!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe class="map-custom" id="map" data-dsn-lat="30.0489206" data-dsn-len="31.258553" data-dsn-zoom="14" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0312482427767!2d30.48812241549748!3d50.45914279461984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce64cc70dd3f%3A0xf52cb48444deb57a!2z0YPQuy4g0J3QuNC60L7Qu9Cw0Y8g0J_QuNC80L7QvdC10L3QutC-LCAxMywg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1604939432703!5m2!1sru!2sua" frameborder="0" style="border:0; filter: grayscale(100%);" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
 
           <div class="container section-margin">
@@ -171,21 +171,7 @@
               <div class="col-lg-6">
                 <div class="box-info-contact">
                   <h3>Start a new project?</h3>
-                  <div>
-                    <div class="book-a-call-btn">
-                      <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="view-all image-zoom" data-dsn="parallax" style="position: relative; top:0px; left:10%; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
-                          <div class="view-all-container">
-                              <div class="icon ">
-                                  <div class="line-1"></div>
-                                  <div class="line-2"></div>
-                              </div>
-                              <div class="text">Book a call</a></div>
-                          </div>
-                      </div>
-                  </div>
-                </div>
                   <p style="margin-top: 10px;">Today you have a lot of competitors, use an engaging video to show off your key advantages and why you are the leading on the market.</p>
-
                   <ul>
                     <li>
                       <span>Phone</span>
@@ -200,6 +186,21 @@
                       <a href="https://goo.gl/maps/bbRgC3shAmE9Ldr2A" target="_blank">Ukraine, Kiev, Mikoli Pimonenka,13, 6a/21</a>
                     </li>
                   </ul>
+
+                  <div>
+                    <div onClick="window.location='https://calendly.com/valueproductions/30min'" class="book-custom-2 view-all-2 image-zoom" data-dsn="parallax" style="width:250px; position: relative; top:70px; margin-right: 0px; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+                        <div class="view-all-container">
+                            <div class="icon ">
+                                <div class="line-1"></div>
+                                <div class="line-2"></div>
+                            </div>
+                            <div class="text" style="font-size: 14px; font-weight: 500;">Book a call</a></div>
+                        </div>
+                        <!-- <div class="icon-circle" style="width: 230px; height: 55px; border: 1px solid white; border-radius: 50px;"></div> -->
+                        
+                    </div>
+                  </div>
+
                 </div>
               </div>
 
@@ -260,7 +261,7 @@
         <section class="contact-up section-margin section-padding">
           <div class="container">
               <div class="c-wapp">
-                  <a href="contact.html" class="effect-ajax">
+                  <a target="_blank" href="mailto:PETER@VALUE.PRODUCTIONS" class="effect-ajax">
                       <span class="hiring">
                           We are hiring
                       </span>
@@ -374,8 +375,8 @@
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/dsn-grid.js"></script>
   <script src="assets/common.js"></script>
-  <script type="text/javascript"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0312482427767!2d30.48812241549748!3d50.45914279461984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce64cc70dd3f%3A0xf52cb48444deb57a!2z0YPQuy4g0J3QuNC60L7Qu9Cw0Y8g0J_QuNC80L7QvdC10L3QutC-LCAxMywg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1604767515750!5m2!1sru!2suahttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0312482427767!2d30.48812241549748!3d50.45914279461984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce64cc70dd3f%3A0xf52cb48444deb57a!2z0YPQuy4g0J3QuNC60L7Qu9Cw0Y8g0J_QuNC80L7QvdC10L3QutC-LCAxMywg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1604767515750!5m2!1sru!2sua"></script>
+  <!-- <script type="text/javascript"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0312482427767!2d30.48812241549748!3d50.45914279461984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce64cc70dd3f%3A0xf52cb48444deb57a!2z0YPQuy4g0J3QuNC60L7Qu9Cw0Y8g0J_QuNC80L7QvdC10L3QutC-LCAxMywg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1604767515750!5m2!1sru!2suahttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0312482427767!2d30.48812241549748!3d50.45914279461984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce64cc70dd3f%3A0xf52cb48444deb57a!2z0YPQuy4g0J3QuNC60L7Qu9Cw0Y8g0J_QuNC80L7QvdC10L3QutC-LCAxMywg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1604767515750!5m2!1sru!2sua"></script> -->
   <script src="assets/js/custom.js"></script>
 
 </body>
