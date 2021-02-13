@@ -1596,6 +1596,11 @@ body > * {
   position: relative;
 }
 
+.custom-wrepper{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -12653,7 +12658,7 @@ footer .copyright-social ul li:last-child {
 }
 
 .cap {
-  position: absolute;
+  /* position: absolute; */
   bottom: 30px;
   left: 0;
   background-image: -webkit-gradient(linear, left top, right top, from(#0e0e0e5c), to(#1b1515));
